@@ -27,8 +27,23 @@ for i in range(2, number):
         is_prime = False
         break
 
+
 if is_prime:
     print(f"{number} is prime!")
 print("")
+print("Challenge 3: Multiplication Table Grid")
+print("Multiplication Table:)
+print("    ", end="")
+for col in range(1, 11):   
+    print(f"{col:4}", end="")
+print("")
+
+for row in range(1, 11):   
+    print(f"{row:2} ", end="")   
+    for col in range(1, 11):     
+        product = row * col
+        print(f"{product:4}", end="")
+    print("")
+
 
 
